@@ -7,8 +7,7 @@ from sqlalchemy.orm import Session
 
 from app.config import settings
 from app.database import get_db
-from app.routes import auth, users
-import app.models  # noqa: F401  (ensures all models are registered)
+from app.routes import auth, plans, recharge, subscriptions, usage, users
 
 logging.basicConfig(
     level=logging.INFO,
@@ -27,6 +26,10 @@ app.add_middleware(
 
 app.include_router(auth.router)
 app.include_router(users.router)
+app.include_router(plans.router)
+app.include_router(usage.router)
+app.include_router(recharge.router)
+app.include_router(subscriptions.router)
 
 
 @app.get("/health")
@@ -36,5 +39,5 @@ def health():
 
 @app.get("/health/db")
 def health_db(db: Session = Depends(get_db)):
-    plans = db.execute(text("select count(*) from recharge_plans")).scalar()
-    return {"database": "connected", "recharge_plans": plans}
+    plans_count = db.execute(text("select count(*) from recharge_plans")).scalar()
+    return {"database": "connected", "recharge_plans": plans_count}

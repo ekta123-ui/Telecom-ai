@@ -1,0 +1,278 @@
+text,intent
+how much data do I have left,DATA_BALANCE
+mera data kitna bacha hai,DATA_BALANCE
+check my remaining data,DATA_BALANCE
+data balance kitna hai,DATA_BALANCE
+how much internet is left in my plan,DATA_BALANCE
+remaining data check karna hai,DATA_BALANCE
+kitna data bacha hai mere pass,DATA_BALANCE
+what's my current data usage,DATA_BALANCE
+data kitna use ho gaya,DATA_BALANCE
+show me my data balance,DATA_BALANCE
+mujhe apna data balance dekhna hai,DATA_BALANCE
+how much gb do I have remaining,DATA_BALANCE
+data khatam hone wala hai kya,DATA_BALANCE
+balance data check kaise kare,DATA_BALANCE
+tell me remaining data for this month,DATA_BALANCE
+internet data kitna bacha,DATA_BALANCE
+how much mb is left,DATA_BALANCE
+abhi kitna data hai mere plan mein,DATA_BALANCE
+is my data about to finish,DATA_BALANCE
+data usage check karo,DATA_BALANCE
+how much data did I use today,DATA_BALANCE
+aaj kitna data use hua,DATA_BALANCE
+leftover data kitna hai,DATA_BALANCE
+check data left in my sim,DATA_BALANCE
+mera balance data batao,DATA_BALANCE
+what is my current plan,PLAN_DETAILS
+mera current plan kya hai,PLAN_DETAILS
+tell me about my active plan,PLAN_DETAILS
+mujhe apna plan dikhao,PLAN_DETAILS
+which plan am I using right now,PLAN_DETAILS
+mera plan kaunsa chal raha hai,PLAN_DETAILS
+what does my plan include,PLAN_DETAILS
+plan ki details batao,PLAN_DETAILS
+when does my plan expire,PLAN_DETAILS
+mera plan kab khatam hoga,PLAN_DETAILS
+how many days left in my plan,PLAN_DETAILS
+plan ki validity kitni bachi hai,PLAN_DETAILS
+show my subscription details,PLAN_DETAILS
+mera subscription dikhao,PLAN_DETAILS
+what benefits do I get in my plan,PLAN_DETAILS
+plan mein kya kya milta hai,PLAN_DETAILS
+current plan ka price kya hai,PLAN_DETAILS
+how much does my plan cost,PLAN_DETAILS
+validity kab tak hai mere plan ki,PLAN_DETAILS
+what is included in my recharge,PLAN_DETAILS
+mera plan expire kab hoga,PLAN_DETAILS
+tell me my plan validity,PLAN_DETAILS
+is there unlimited calling in my plan,PLAN_DETAILS
+mujhe plan ki validity chahiye,PLAN_DETAILS
+my plan details please,PLAN_DETAILS
+which plan is best for me,PLAN_RECOMMENDATION
+mere liye best plan kaunsa hai,PLAN_RECOMMENDATION
+I use around 2gb per day which plan should I choose,PLAN_RECOMMENDATION
+mujhe plan suggest karo,PLAN_RECOMMENDATION
+suggest a plan under 400 rupees,PLAN_RECOMMENDATION
+400 rupaye ke andar plan batao,PLAN_RECOMMENDATION
+I need a plan with more data,PLAN_RECOMMENDATION
+zyada data wala plan chahiye,PLAN_RECOMMENDATION
+recommend me a cheap plan,PLAN_RECOMMENDATION
+sasta plan batao,PLAN_RECOMMENDATION
+which plan gives unlimited calls,PLAN_RECOMMENDATION
+unlimited calling wala plan kaunsa hai,PLAN_RECOMMENDATION
+I need a plan for 3 months,PLAN_RECOMMENDATION
+3 mahine ka plan chahiye,PLAN_RECOMMENDATION
+my budget is 500 suggest a plan,PLAN_RECOMMENDATION
+budget 500 hai plan batao,PLAN_RECOMMENDATION
+what plan suits heavy data users,PLAN_RECOMMENDATION
+jyada data use karne walon ke liye plan,PLAN_RECOMMENDATION
+I travel a lot which plan has roaming,PLAN_RECOMMENDATION
+roaming wala plan chahiye,PLAN_RECOMMENDATION
+suggest best value plan,PLAN_RECOMMENDATION
+best value ka plan batao,PLAN_RECOMMENDATION
+which plan is good for students,PLAN_RECOMMENDATION
+student ke liye konsa plan sahi hai,PLAN_RECOMMENDATION
+I only use calls not much data suggest plan,PLAN_RECOMMENDATION
+mostly call karta hun data kam use karta hun plan batao,PLAN_RECOMMENDATION
+compare and recommend a plan for me,PLAN_RECOMMENDATION
+I want to recharge,RECHARGE
+mujhe recharge karna hai,RECHARGE
+recharge my number,RECHARGE
+mera number recharge karo,RECHARGE
+do a recharge of 399,RECHARGE
+399 ka recharge kardo,RECHARGE
+I need to recharge my phone,RECHARGE
+phone recharge karna hai,RECHARGE
+recharge karne ka tarika batao,RECHARGE
+how do I recharge my sim,RECHARGE
+sim recharge kaise kare,RECHARGE
+please recharge with the 299 plan,RECHARGE
+299 wala plan recharge karo,RECHARGE
+top up my account,RECHARGE
+account top up karna hai,RECHARGE
+add balance to my number,RECHARGE
+number mein balance dalna hai,RECHARGE
+recharge now,RECHARGE
+abhi recharge karo,RECHARGE
+I want to buy a new plan,RECHARGE
+naya plan lena hai,RECHARGE
+process my recharge,RECHARGE
+recharge process karo,RECHARGE
+can you recharge for me,RECHARGE
+mere liye recharge kar sakte ho,RECHARGE
+my internet is very slow,NETWORK_ISSUE
+internet bahut slow hai,NETWORK_ISSUE
+network is not working,NETWORK_ISSUE
+network nahi aa raha hai,NETWORK_ISSUE
+I am not getting any signal,NETWORK_ISSUE
+signal hi nahi aa raha,NETWORK_ISSUE
+calls keep dropping,NETWORK_ISSUE
+call baar baar cut ho rahi hai,NETWORK_ISSUE
+why is my connection so bad,NETWORK_ISSUE
+connection itna kharab kyun hai,NETWORK_ISSUE
+internet keeps disconnecting,NETWORK_ISSUE
+internet baar baar disconnect ho raha hai,NETWORK_ISSUE
+no network in my area,NETWORK_ISSUE
+mere area mein network nahi hai,NETWORK_ISSUE
+4g is not working properly,NETWORK_ISSUE
+4g sahi se kaam nahi kar raha,NETWORK_ISSUE
+my data speed is very low,NETWORK_ISSUE
+data speed bahut kam hai,NETWORK_ISSUE
+why is buffering happening so much,NETWORK_ISSUE
+video buffer ho raha hai baar baar,NETWORK_ISSUE
+network issue since morning,NETWORK_ISSUE
+subah se network problem hai,NETWORK_ISSUE
+network diagnosis karo,NETWORK_ISSUE
+check my network quality,NETWORK_ISSUE
+mera network kaisa hai check karo,NETWORK_ISSUE
+I want to file a complaint,COMPLAINT
+mujhe complaint darz karni hai,COMPLAINT
+I want to complain about network,COMPLAINT
+network ki complaint karni hai,COMPLAINT
+raise a complaint for me,COMPLAINT
+mere liye complaint raise karo,COMPLAINT
+how do I lodge a complaint,COMPLAINT
+complaint kaise darz kare,COMPLAINT
+I am not satisfied with the service,COMPLAINT
+service se khush nahi hun,COMPLAINT
+register a complaint about billing,COMPLAINT
+billing ki complaint register karo,COMPLAINT
+this is unacceptable I want to complain,COMPLAINT
+yeh bilkul galat hai complaint karni hai,COMPLAINT
+my internet has not worked since morning file a complaint,COMPLAINT
+subah se internet nahi chal raha complaint karo,COMPLAINT
+submit a complaint regarding poor signal,COMPLAINT
+kharab signal ki complaint submit karo,COMPLAINT
+I have an issue please log a complaint,COMPLAINT
+mujhe problem hai complaint likho,COMPLAINT
+report a problem with my connection,COMPLAINT
+meri connection ki problem report karo,COMPLAINT
+escalate this issue,COMPLAINT
+is issue ko escalate karo,COMPLAINT
+what's the status of my complaint,COMPLAINT_STATUS
+meri complaint ka status kya hai,COMPLAINT_STATUS
+has my complaint been resolved,COMPLAINT_STATUS
+meri complaint solve hui ya nahi,COMPLAINT_STATUS
+check my complaint status,COMPLAINT_STATUS
+complaint status check karo,COMPLAINT_STATUS
+is anyone working on my complaint,COMPLAINT_STATUS
+koi mera complaint dekh raha hai kya,COMPLAINT_STATUS
+when will my complaint be resolved,COMPLAINT_STATUS
+meri complaint kab tak solve hogi,COMPLAINT_STATUS
+track my previous complaint,COMPLAINT_STATUS
+purani complaint track karo,COMPLAINT_STATUS
+explain my bill,BILL_QUERY
+mera bill samjhao,BILL_QUERY
+why is my bill so high this month,BILL_QUERY
+is mahine bill itna zyada kyun hai,BILL_QUERY
+what are these extra charges on my bill,BILL_QUERY
+bill mein extra charges kya hain,BILL_QUERY
+break down my monthly bill,BILL_QUERY
+mera monthly bill break down karo,BILL_QUERY
+I don't understand my bill,BILL_QUERY
+mujhe bill samajh nahi aa raha,BILL_QUERY
+compare this month's bill with last month,BILL_QUERY
+is mahine ka bill pichle mahine se compare karo,BILL_QUERY
+show me my billing history,BILL_QUERY
+meri billing history dikhao,BILL_QUERY
+what is the tax amount in my bill,BILL_QUERY
+bill mein tax kitna hai,BILL_QUERY
+why did additional data charges apply,BILL_QUERY
+extra data charge kyun laga,BILL_QUERY
+download my latest bill,BILL_QUERY
+mera latest bill download karo,BILL_QUERY
+compare 299 and 399 plans,PLAN_COMPARISON
+299 aur 399 plan compare karo,PLAN_COMPARISON
+what is the difference between these two plans,PLAN_COMPARISON
+in dono plans mein kya difference hai,PLAN_COMPARISON
+show me plan comparison,PLAN_COMPARISON
+mujhe plan comparison dikhao,PLAN_COMPARISON
+which plan has more data between these two,PLAN_COMPARISON
+in dono mein zyada data kisme hai,PLAN_COMPARISON
+compare jio and airtel plans,PLAN_COMPARISON
+jio aur airtel ka plan compare karo,PLAN_COMPARISON
+difference between 28 days and 84 days plan,PLAN_COMPARISON
+28 din aur 84 din wale plan mein kya fark hai,PLAN_COMPARISON
+hi,GENERAL_SUPPORT
+hello,GENERAL_SUPPORT
+hey there,GENERAL_SUPPORT
+namaste,GENERAL_SUPPORT
+good morning,GENERAL_SUPPORT
+thank you,GENERAL_SUPPORT
+thanks a lot,GENERAL_SUPPORT
+dhanyavaad,GENERAL_SUPPORT
+shukriya,GENERAL_SUPPORT
+who are you,GENERAL_SUPPORT
+what can you help me with,GENERAL_SUPPORT
+tum kya kar sakte ho,GENERAL_SUPPORT
+I need help,GENERAL_SUPPORT
+mujhe madad chahiye,GENERAL_SUPPORT
+can you assist me,GENERAL_SUPPORT
+is anyone there,GENERAL_SUPPORT
+koi hai kya,GENERAL_SUPPORT
+bye,GENERAL_SUPPORT
+see you later,GENERAL_SUPPORT
+ok thanks bye,GENERAL_SUPPORT
+how are you,GENERAL_SUPPORT
+kaise ho,GENERAL_SUPPORT
+tell me a joke,GENERAL_SUPPORT
+what's your name,GENERAL_SUPPORT
+are you a real person,GENERAL_SUPPORT
+what's the update on my complaint,COMPLAINT_STATUS
+meri complaint par koi update hai kya,COMPLAINT_STATUS
+is my complaint still pending,COMPLAINT_STATUS
+meri complaint abhi bhi pending hai kya,COMPLAINT_STATUS
+give me my complaint ticket number status,COMPLAINT_STATUS
+complaint ticket ka status batao,COMPLAINT_STATUS
+how long will it take to resolve my complaint,COMPLAINT_STATUS
+meri complaint resolve hone mein kitna time lagega,COMPLAINT_STATUS
+follow up on my previous complaint,COMPLAINT_STATUS
+pichli complaint ka follow up chahiye,COMPLAINT_STATUS
+has anyone looked into my complaint yet,COMPLAINT_STATUS
+meri complaint par kisi ne dekha hai kya,COMPLAINT_STATUS
+complaint resolved ho gayi kya,COMPLAINT_STATUS
+is my issue closed now,COMPLAINT_STATUS
+mera issue band ho gaya kya,COMPLAINT_STATUS
+check status of ticket number 1234,COMPLAINT_STATUS
+ticket number 1234 ka status check karo,COMPLAINT_STATUS
+recharge with 199 pack,RECHARGE
+199 wala pack recharge karo,RECHARGE
+I want to activate a new plan on my number,RECHARGE
+mere number par naya plan activate karna hai,RECHARGE
+pay for my recharge now,RECHARGE
+abhi recharge ka payment karo,RECHARGE
+load balance into my sim,RECHARGE
+sim mein balance load karo,RECHARGE
+I want to recharge with the youth pack,RECHARGE
+youth pack se recharge karna hai,RECHARGE
+renew my current plan,RECHARGE
+mera current plan renew karo,RECHARGE
+can I recharge using UPI,RECHARGE
+UPI se recharge ho sakta hai kya,RECHARGE
+start a new recharge transaction,RECHARGE
+naya recharge transaction shuru karo,RECHARGE
+buy data pack for this month,RECHARGE
+is mahine ke liye data pack lena hai,RECHARGE
+is the 299 plan better than the 399 plan,PLAN_COMPARISON
+kya 299 wala plan 399 se behtar hai,PLAN_COMPARISON
+which one gives more validity 199 or 299,PLAN_COMPARISON
+zyada validity kisme hai 199 ya 299,PLAN_COMPARISON
+show differences between these two recharge options,PLAN_COMPARISON
+in dono recharge options mein antar dikhao,PLAN_COMPARISON
+put these two plans side by side,PLAN_COMPARISON
+in dono plans ko saath mein dikhao,PLAN_COMPARISON
+which plan offers better value for money,PLAN_COMPARISON
+konsa plan paison ke hisab se behtar hai,PLAN_COMPARISON
+I'm confused between two plans help me choose,PLAN_COMPARISON
+do plans mein confuse hun madad karo,PLAN_COMPARISON
+my calls are not connecting,NETWORK_ISSUE
+meri calls connect nahi ho rahi,NETWORK_ISSUE
+getting network drop every few minutes,NETWORK_ISSUE
+har kuch minute mein network drop ho raha hai,NETWORK_ISSUE
+no bars showing on my phone,NETWORK_ISSUE
+phone mein koi signal bar nahi dikh raha,NETWORK_ISSUE
+internet is extremely slow right now,NETWORK_ISSUE
+abhi internet bahut hi slow hai,NETWORK_ISSUE
+can't make a call right now,NETWORK_ISSUE
+abhi call nahi lag rahi,NETWORK_ISSUE
