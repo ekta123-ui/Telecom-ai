@@ -12,3 +12,6 @@ email-validator
 scikit-learn
 joblib
 pandas
+sentence-transformers
+pgvector
+httpx

@@ -50,4 +50,4 @@ class Troubleshooting(Base):
     issue_type: Mapped[str | None] = mapped_column(String)
     symptom: Mapped[str] = mapped_column(String)
     possible_cause: Mapped[str | None] = mapped_column(String)
-    solution: Mapped[str] = mapped_column(String)
+    solution: Mapped[str] = mapped_column(String)gitgit

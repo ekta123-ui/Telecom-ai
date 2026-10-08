@@ -1,7 +1,18 @@
 import uuid
 from datetime import date, datetime
 
-from sqlalchemy import BigInteger, Boolean, Date, ForeignKey, Numeric, String, Text, func
+from pgvector.sqlalchemy import Vector
+from sqlalchemy import (
+    BigInteger,
+    Boolean,
+    Date,
+    ForeignKey,
+    Numeric,
+    String,
+    Text,
+    UniqueConstraint,
+    func,
+)
 from sqlalchemy.dialects.postgresql import JSONB, UUID
 from sqlalchemy.orm import Mapped, mapped_column
 
@@ -95,4 +106,22 @@ class ChatHistory(Base):
     confidence: Mapped[float | None] = mapped_column(Numeric(5, 4))
     tool_used: Mapped[str | None] = mapped_column(String)
     sources: Mapped[dict | None] = mapped_column(JSONB)
+    created_at: Mapped[datetime] = mapped_column(server_default=func.now())
+
+
+class Document(Base):
+    __tablename__ = "documents"
+    __table_args__ = (
+        UniqueConstraint("source_table", "source_id"),
+    )
+
+    document_id: Mapped[int] = mapped_column(BigInteger, primary_key=True)
+    source_table: Mapped[str] = mapped_column(Text)
+    source_id: Mapped[int] = mapped_column(BigInteger)
+    provider_id: Mapped[int | None] = mapped_column(
+        BigInteger, ForeignKey("providers.provider_id")
+    )
+    title: Mapped[str] = mapped_column(Text)
+    content: Mapped[str] = mapped_column(Text)
+    embedding: Mapped[list[float] | None] = mapped_column(Vector(384))
     created_at: Mapped[datetime] = mapped_column(server_default=func.now())

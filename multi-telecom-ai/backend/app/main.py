@@ -7,7 +7,7 @@ from sqlalchemy.orm import Session
 
 from app.config import settings
 from app.database import get_db
-from app.routes import auth, plans, recharge, subscriptions, usage, users
+from app.routes import ai, auth, plans, recharge, subscriptions, usage, users
 
 logging.basicConfig(
     level=logging.INFO,
@@ -25,6 +25,7 @@ app.add_middleware(
 )
 
 app.include_router(auth.router)
+app.include_router(ai.router)
 app.include_router(users.router)
 app.include_router(plans.router)
 app.include_router(usage.router)

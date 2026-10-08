@@ -5,4 +5,5 @@ venv/
 node_modules/
 .next/
 *.pyc
-ml_models/*.pkl
+ml_models/*.pkl/
+.venv/

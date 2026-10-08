@@ -6,4 +6,5 @@ from app.models.core import (
     Recharge,
     Complaint,
     ChatHistory,
+    Document,
 )
