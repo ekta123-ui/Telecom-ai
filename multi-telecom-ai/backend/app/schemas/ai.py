@@ -34,3 +34,14 @@ class ChatResponse(BaseModel):
     tool_used: str | None
     sources: list[str]
     session_id: UUID
+
+
+class UsagePredictionResponse(BaseModel):
+    average_daily_mb: float
+    predicted_tomorrow_mb: float
+    predicted_next_7_days_mb: float
+    trend: str
+    days_of_history: int
+    remaining_mb: float | None = None
+    days_until_data_runs_out: float | None = None
+    warning: str | None = None

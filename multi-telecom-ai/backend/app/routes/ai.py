@@ -1,11 +1,12 @@
 import uuid
 
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 
 from app.ai.chat_service import handle_chat
 from app.ai.intent_service import predict_intent
 from app.ai.rag_service import retrieve_relevant_documents
+from app.ai.usage_prediction_service import predict_usage
 from app.database import get_db
 from app.routes.users import get_current_user
 from app.schemas.ai import (
@@ -15,6 +16,7 @@ from app.schemas.ai import (
     ChatResponse,
     IntentRequest,
     IntentResponse,
+    UsagePredictionResponse,
 )
 from app.models.core import User
 
@@ -60,3 +62,14 @@ def chat(
 ) -> ChatResponse:
     session_id = request.session_id or uuid.uuid4()
     return ChatResponse(**handle_chat(db, current_user, request.message, session_id))
+
+
+@router.post("/predict-usage", response_model=UsagePredictionResponse)
+def predict_user_usage(
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+) -> UsagePredictionResponse:
+    try:
+        return UsagePredictionResponse(**predict_usage(db, current_user))
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
